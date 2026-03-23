@@ -1,5 +1,8 @@
-export default function Blog() {
+export default async function Blog() {
+
     return (
-        <div>this is blog page</div>
+        <div>
+            <h1>Blog</h1>
+        </div>
     )
 }

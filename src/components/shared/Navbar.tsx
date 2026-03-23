@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "../ui/button";
 
 export default function Navbar() {
     return (
@@ -31,9 +32,9 @@ export default function Navbar() {
             </Link>
           </div>
           {/* end button */}
-          <div>
-            <button>Book a Viewing</button>
-          </div>
+          <Link href="/book-viewing" >
+            <Button className="px-4 py-4 cursor-pointer">Book a Viewing</Button>
+          </Link>
         </div>
       </nav>
     );
