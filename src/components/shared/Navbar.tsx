@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
           {/* end button */}
           <Link href="/book-viewing" >
-            <Button className="px-4 py-4 cursor-pointer">Book a Viewing</Button>
+            <Button className="px-6 py-5 cursor-pointer">Book a Viewing</Button>
           </Link>
         </div>
       </nav>
