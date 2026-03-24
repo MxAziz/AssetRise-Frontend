@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function Navbar() {
     return (
-      <nav className="pt-10 w-360 mx-auto">
+      <nav className="pt-10 pb-8 w-360 mx-auto">
         <div className="container mx-auto flex justify-between items-center">
           <div>
-            <Link href="/" className="text-xl font-bold">
-              AssetRise
+            <Link href="/" className="flex justify-center items-center gap-2 font-bold">
+              <Image src="/images/logo/logo.png" alt="this is a website logo" width={44} height={44}/>
+              <h1 className="text-[30px]">AssetRise</h1>
             </Link>
           </div>
           {/* route pages */}
