@@ -105,6 +105,7 @@ export default function HeroSection() {
           alt="Modern luxury house on rocky coast"
           fill
           className="w-full h-full object-cover object-center"
+          loading="eager"
         />
         {/* Sky-blue gradient overlay to recreate the airy, misty tone */}
         {/* <div className="absolute inset-0 bg-linear-to-b from-[#b8d4e8]/70 via-[#c9dff0]/40 to-[#d4e8f4]/20" /> */}
@@ -138,7 +139,7 @@ export default function HeroSection() {
           <button
             className={cn(
               "mt-7 sm:mt-9 bg-[#1a1a1a] text-white text-sm font-medium",
-              "px-6 py-3 rounded-full",
+              "px-6 py-3 rounded-xl",
               "hover:bg-black hover:scale-105 active:scale-95",
               "transition-all duration-200 ease-out shadow-lg shadow-black/20",
               "focus:outline-none focus:ring-2 focus:ring-white/40"
